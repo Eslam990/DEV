@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <meta charset="UTF-8">
+  <title>شات الذكاء الاصطناعي | Smart School</title>
+  <link rel="stylesheet" href="chat.css">
+  <script src="https://js.puter.com/v2/"></script> <!-- استدعاء مكتبة Puter.js -->
+</head>
+<body>
+
+  <!-- هيدر ثابت -->
+  <header>
+    <div class="company-name">Smart School</div>
+    <nav>
+        <a href="index.html">الرئيسية</a>
+        <a href="chat bot.html">الشات الذكي</a>
+        <a href="من نحن .html">من نحن</a>
+        <a href="تواصل معنا .html">تواصل معنا</a>
+    </nav>
+    <div class="logo"></div>
+  </header>
+
+  <!-- قسم الشات بوت -->
+  <section class="chat-container">
+    <h2>شات الذكاء الاصطناعي</h2>
+    <div class="chat-box" id="chat-box">
+      <div class="message bot">مرحبًا بك! اسألني أي شيء عن المدارس الذكية 🚀</div>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="اكتب رسالتك هنا...">
+      <button onclick="sendMessage()">إرسال</button>
+    </div>
+  </section>
+
+  <script src="chat.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+@media screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+    .container {
+      width: 90%;
+      margin: auto;
+    }
+  }
+  
+header {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background: linear-gradient(to top, #577fce28, #ffffff);
+    backdrop-filter: blur(8px);
+    border-radius: 0 0 20px 20px;
+    }
+    
+    .company-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #7c0f0f;
+    }
+    
+    nav {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-grow: 1;
+    }
+    
+    nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #920f0f;
+    padding: 8px 14px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    }
+    
+    nav a:hover {
+    background-color: rgba(112, 44, 44, 0.2);
+    }
+    
+    .logo {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-image: url('logo.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    }
+      nav {
+        display: flex;
+        gap: 25px;
+      }
+    
+      nav a {
+        text-decoration: none;
+        font-size: 19px;
+        font-weight: bold;
+        color: #7c4b4b;
+        padding: 8px 14px;
+        border-radius: 20px;
+        transition: background-color 0.3s ease;
+      }
+    
+      nav a:hover {
+        background-color: rgba(83, 10, 10, 0.205);
+      }
+      
+.chat-container {
+    text-align: center;
+    padding: 120px 20px 40px;
+  }
+  
+  .chat-box {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    height: 300px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .message {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    max-width: 80%;
+  }
+  
+  .bot {
+    background: #0044cc;
+    color: white;
+    align-self: flex-start;
+  }
+  
+  .user {
+    background: #ddd;
+    color: black;
+    align-self: flex-end;
+  }
+  
+  .chat-input {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .chat-input input {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .chat-input button {
+    background: #0044cc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .chat-input button:hover {
+    background: #0033aa;
+  }
